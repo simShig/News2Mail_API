@@ -1,7 +1,7 @@
 import requests
 from send_email import send_email
 
-topic = "technology"
+topic = "cyber"
 
 api_key = "2e0b30c80a604166bb7ac41c350cd78c"
 url = "https://newsapi.org/v2/everything?" \
@@ -11,10 +11,10 @@ url = "https://newsapi.org/v2/everything?" \
       "language=en"
 
 # Make request
-request = requests.get(url)
+response = requests.get(url)
 
 # Get a dictionary with data
-content = request.json()
+content = response.json()
 
 # Access the article titles and description
 body = "Subject: Today's news"
