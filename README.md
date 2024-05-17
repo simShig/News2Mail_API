@@ -23,4 +23,4 @@ Change the "username" and "password" placeholders in the script "send_email.py":
 
 
 ## Project Tools
-APIs,Web interaction, STMP
+APIs,Web interaction, STMP, Webtasks automation using hosting server (PythonAywhere)
