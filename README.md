@@ -16,5 +16,11 @@ Obtain an API key from NewsAPI and replace the placeholder api_key in the script
 
     api_key = "your_api_key_here"
 
+Change the "username" and "password" placeholders in the script "send_email.py":
+
+    username = "your_un_here"
+    password = "your_pw_here"
+
+
 ## Project Tools
 APIs,Web interaction, STMP
