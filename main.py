@@ -3,7 +3,7 @@ from send_email import send_email
 
 topic = "cyber"
 
-api_key = "2e0b30c80a604166bb7ac41c350cd78c"
+api_key = os.getenv("News2Mail_API_apiKey")
 url = "https://newsapi.org/v2/everything?" \
       f"q={topic}&" \
       "sortBy=publishedAt&" \
